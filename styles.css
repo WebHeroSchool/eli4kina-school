@@ -63,7 +63,7 @@
     transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
 }
 .main{
-    background: top right/50.5% no-repeat url(images/Frame.svg);
+    background: top right/50.5% no-repeat url(images/frame.svg);
     padding: 0 0 70% 0;
 }
 .main__title {
