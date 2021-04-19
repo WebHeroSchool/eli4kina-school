@@ -11,7 +11,7 @@
 .logo{
     padding: 31px 0;
     padding-left: 45px;
-    font: bold 26px/32px Ptserif, Arial, Helvetica, sans-serif;
+    font: bold 24px/32px PtserifBold, Arial, Helvetica, sans-serif;
     color: #000;
     position: relative;
 }
@@ -33,9 +33,12 @@
     top: 56%;
     background: #C8DBFB;
 }
+.menu {
+    transform: translateY(15%)
+}
 .menu__item{
     margin-right: 24px;
-    font: normal 550 18px/32px Roboto;
+    font: normal 550 18px/21px Roboto;
     color: #000;
     position: relative;
 }
@@ -66,8 +69,7 @@
 .main__title {
     width: 40%;
     padding: 74px 60% 0 0;
-    font: bold 66px/87px  Ptserif, Arial, Helvetica, sans-serif;
-    letter-spacing: 2.5px;
+    font: bold 66px/87px  PtserifBold, Arial, Helvetica, sans-serif;
     margin: 0 0 37px 0;
     color: #000;
 }
