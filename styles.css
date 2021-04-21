@@ -115,3 +115,75 @@
 .main__button:hover {
     animation: bounce 1s;
 }
+/*
+если экран будет меньше 768, то применяем правила ниже
+для мобилки
+*/
+@media (max-width: 768px) {
+   .menu {
+       display: none;
+   }
+   .header {
+        margin-bottom: 28px;
+    }
+    .logo__text {
+        visibility: hidden;
+    }
+    .main {
+        padding: 74% 0 0;
+        background-size: 74%;
+        background-position: top center;
+        text-align: center;
+    }
+    .main__title {
+        width: 100%;
+        margin-bottom: 44px;
+        font: bold 30px/39px PtserifBold, arial, helvetica, sans-serif;
+    }
+    .main__paragraph {
+        width: 100%;
+        margin-bottom: 25px;
+        font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+    }
+    .main__button {
+        font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+        padding: 14px 25px 13px 16px;
+    }   
+}
+
+/*для макета 1170
+@media (max-width: 1300px) {
+    .menu__item{
+        font: normal 500 14px/16px Roboto;
+    }
+    .main__title {
+        margin-bottom: 40px;
+        font: bold 50px/66px PtserifBold, arial, helvetica, sans-serif;
+    }
+    .main__paragraph {
+        margin-bottom: 41px;
+        font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    }
+    .main__button {
+        font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+        padding: 14px 25px 13px 16px;
+    } 
+}*/
+/*для макета 1170 и 1366*/
+@media (max-width: 1800px) {
+    .menu__item{
+        font: normal 500 14px/16px Roboto;
+    }
+    .main__title {
+        margin-bottom: 40px;
+        font: bold 50px/66px PtserifBold, arial, helvetica, sans-serif;
+    }
+    .main__paragraph {
+        margin-bottom: 41px;
+        font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    }
+    .main__button {
+        font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+        padding: 14px 25px 13px 16px;
+    }
+}
