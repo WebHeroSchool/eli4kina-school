@@ -200,29 +200,36 @@
 для мобилки
 */
 @media (max-width: 768px) {
+    .wrapper {
+        width: 91%;
+    }
    .menu {
        display: none;
    }
    .header {
-        margin-bottom: 28px;
+        margin-bottom: 15px;
+    }
+    .logo{
+        padding: 16px 0;
     }
     .logo__text {
         visibility: hidden;
     }
     .main {
         padding: 74% 0 0;
-        background-size: 74%;
+        background-size: 86%;
         background-position: top center;
         text-align: center;
     }
     .main__title {
         width: 100%;
-        margin-bottom: 44px;
+        margin-bottom: 35px;
+        padding: 19px 60% 0 2px;
         font: bold 30px/39px PtserifBold, arial, helvetica, sans-serif;
     }
     .main__paragraph {
-        width: 100%;
-        margin-bottom: 25px;
+        width: 75%;
+        margin: 0 0 25px 0;
         font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
     }
     .main__button {
@@ -235,7 +242,7 @@
 }
 
 /*для макета 1170 и 1366*/
-@media (max-width: 1800px) {
+@media (min-width: 1000) (max-width: 1800px) {
     .menu__item{
         font: normal 500 14px/16px Roboto;
     }
