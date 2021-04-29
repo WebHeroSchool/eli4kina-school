@@ -247,8 +247,8 @@
     }
     .main__title {
         width: 100%;
-        padding: 0 0 0 5px;
-        margin-bottom: 35px;
+        padding: 0 0 0 7px;
+        margin-bottom: 34px;
         font: bold 30px/39px PtserifBold, arial, helvetica, sans-serif;
     }
     .main__paragraph {
@@ -256,10 +256,11 @@
     }
     .main__paragraph-mobile {
         display: flex;
-        width: 75%;
-        padding: 0 0 0 5px;
+        width: 76%;
+        padding: 0 0 0 8px;
         margin: 0 0 23px 0;
         font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+        letter-spacing: 0.1px;
     }
     .main__button {
         font: 500 14px/15px Roboto, arial, helvetica, sans-serif;
@@ -275,8 +276,48 @@
         display: none;
     }
 }
+@media (min-width: 769px) and (max-width: 900px) {
+    .wrapper {
+        width: 92.5%;
+    }
+    .header {
+        margin-bottom: 95px;
+    }
+    .main {
+        background: top right/55% no-repeat url(images/frame.svg);
+        padding: 0 0 147px 0;
+    }
+    .menu__item{
+        font: normal 500 14px/16px Roboto;
+    }
+    .menu__item:nth-child(2) {
+        margin-right: 22px;
+    }
+    .menu__item:nth-child(n+3) {
+        margin-right: 23px;
+    }
+    .menu__item:last-child {
+        margin-right: 0px;
+    }
+    .main__title {
+        width: 40%;
+        padding: 15px 60% 0 0;
+        margin-bottom: 38px;
+        font: bold 45px/60px PtserifBold, arial, helvetica, sans-serif;
+    }
+    .main__paragraph {
+        width: 40%;
+        margin-bottom: 41px;
+        font: 500 17px/20px Roboto, arial, helvetica, sans-serif;
+    }
+    .main__button {
+        letter-spacing: 0.1px;
+        font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+        padding: 12px 23px 13px 13px;
+    }
+}
 /*для макета 1024*/
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width: 901px) and (max-width: 1200px) {
     .wrapper {
         width: 92.5%;
     }
