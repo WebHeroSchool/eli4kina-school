@@ -84,7 +84,7 @@
 }
 .main__paragraph {
     width: 30%;
-    font: 500 22px/26px Roboto, sans-serif;
+    font: 400 22px/26px Roboto, sans-serif;
     margin: 0 0 40px 0;
     color: #000
 }
@@ -110,9 +110,9 @@
 .main__button{
     background: #0056EC;
     border-radius: 4px;
-    padding: 19px 35px 17px 20px;
+    padding: 19px 35px 17px 21px;
     font: 500 19px/21px Roboto;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.8px;
     color: #FFF;
 }
 .main__button:hover {
@@ -165,7 +165,7 @@
     height: 100%;
     top: 0;
     margin: 0;
-    padding: 177px 0;
+    padding: 187px 0;
     list-style: none;
     text-align: center;
     background-color: #fff;
@@ -173,10 +173,16 @@
 }
 .menu-mobile__item {
     display: block;
-    padding: 12px 24px;
+    margin: 0 0 26px 0;
     color: #333;
     font: 600 30px/34px Roboto, arial, helvetica, sans-serif;
     text-decoration: none;
+}
+.menu-mobile__box li:nth-child(n+3) .menu-mobile__item {
+    margin-right: 3px;
+}
+.menu-mobile__box li:last-child .menu-mobile__item {
+    margin-left: -2px;
 }
 .menu-mobile__item:hover {
     background-color: #CFD8DC;
