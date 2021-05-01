@@ -262,7 +262,7 @@
     }
     .main__paragraph-mobile {
         display: flex;
-        width: 76%;
+        width: 78%;
         padding: 0 0 0 8px;
         margin: 0 0 23px 0;
         font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
@@ -271,7 +271,7 @@
     .main__button {
         font: 500 14px/15px Roboto, arial, helvetica, sans-serif;
         letter-spacing: 0.1px;
-        padding: 14px 23px 14px 17px;
+        padding: 14px 22px 14px 16px;
         margin-bottom: 43px;
         margin-left: 1px;
     }
