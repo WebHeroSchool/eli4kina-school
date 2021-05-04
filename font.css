@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Ptserif';
-    src: url('fonts/PT_Serif/ptserif-regular-webfont.woff') format('woff');
+    src: url('fonts/ptserif-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'PtserifBold';
-    src: url('fonts/PT_Serif/PTSerif-Bold.woff') format('woff');
+    src: url('fonts/PTSerif-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
