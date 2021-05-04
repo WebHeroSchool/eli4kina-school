@@ -112,6 +112,7 @@
 .main__paragraph:hover {
     animation: clarity 2s;
     animation-fill-mode: forwards;
+
 }
 .main__paragraph-mobile {
     display: none;
