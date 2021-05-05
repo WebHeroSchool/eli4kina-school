@@ -2,18 +2,21 @@
       width: 80.3%;
   margin: auto;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 140px;
 }
+
 .logo {
     padding: 31px 0 0 45px;
     font: bold 24px/32px PtserifBold, Arial, Helvetica, sans-serif;
     color: #000;
     position: relative;
 }
+
 .logo__circle {
     position: absolute;
     left: 0;
@@ -24,6 +27,7 @@
     border-radius: 50%;
     opacity: 0.7;
 }
+
 .logo__circle_color_dark-blue {
     background: #0056ec;
 }
@@ -33,12 +37,14 @@
     top: 56%;
     background: #c8dbfb;
 }
+
 .menu {
     transform: translateY(15%);
 }
+
 .menu__item {
     margin: 0 22px 0 0;
-    font: normal 500 18px/21px Roboto;
+    font: normal 500 18px/21px Roboto, sans-serif;
     color: #000;
     position: relative;
 }
@@ -46,13 +52,16 @@
 .menu__item:nth-child(2) {
     margin-right: 21px;
 }
+
 .menu__item:nth-child(n+3) {
     margin-right: 25px;
 }
+
 .menu__item:last-child {
     margin-right: 5px;
 }
-.menu__item_active:after {
+
+.menu__item_active::after {
     position: absolute;
     display: block;
     content: '';
@@ -60,8 +69,9 @@
     width: 100%;
     height: 3px;
     background: #0056ec;
-    transition: all .2s;
+    transition: all 0.2s;
 }
+
 .menu__item:hover {
     cursor: pointer;
     background: #cadaf5;
@@ -69,10 +79,12 @@
     box-shadow: 0.2em 0 0 #cadaf5, -0.2em 0 0 #cadaf5;
     transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
 }
+
 .main {
     background: top right/50.5% no-repeat url(images/frame.svg);
     padding: 0 0 268px 0;
 }
+
 .main__title {
     width: 40%;
     padding: 74px 0 0 0;
@@ -80,6 +92,7 @@
     margin: 0 0 36px 0;
     color: #000;
 }
+
 .main_title-text_highlight {
     background: linear-gradient(180deg, rgb(255, 255, 255) 15%, #ecf3ff 15%); 
 }
@@ -89,9 +102,11 @@
     margin: 0 0 40px 0;
     color: #000;
 }
+
 .main__paragraph-mobile {
     display: none;
 }
+
 @keyframes bounce {
 	0%, 20%, 60%, 100% {
 		transform: translateY(0);
@@ -108,6 +123,7 @@
 		transform: translateY(-10px);
 	}
 }
+
 .main__button {
     background: #0056ec;
     border-radius: 4px;
@@ -116,6 +132,7 @@
     letter-spacing: -0.8px;
     color: #FFF;
 }
+
 .main__button:hover {
     animation: bounce 1s;
 }
@@ -123,6 +140,7 @@
 .hamburger-menu {
     display: none;
 }
+
 #menu-mobile__toggle {
     opacity: 0;
   }
@@ -137,6 +155,7 @@
     cursor: pointer;
     z-index: 2;
 }
+
 .menu-mobile__btn > span,
 .menu-mobile__btn > span::before,
 .menu-mobile__btn > span::after {
@@ -147,14 +166,17 @@
     background-color: #0056ec;
     transition-duration: 0.25s;
 }
+
 .menu-mobile__btn > span::before {
     content: '';
     top: -8px;
 }
+
 .menu-mobile__btn > span::after {
     content: '';
     top: 8px;
 }
+
 .menu-mobile__box {
     display: flex;
     position: fixed;
@@ -172,6 +194,7 @@
     background-color: #fff;
     transition-duration: 0.25s;
 }
+
 .menu-mobile__item {
     display: block;
     margin: 0 0 26px 0;
@@ -179,36 +202,45 @@
     font: 600 30px/34px Roboto, arial, helvetica, sans-serif;
     text-decoration: none;
 }
+
 .menu-mobile__box li:nth-child(n+3) .menu-mobile__item {
     margin-right: 3px;
 }
+
 .menu-mobile__box li:last-child .menu-mobile__item {
     margin-left: -2px;
 }
+
 .menu-mobile__item:hover {
     background-color: #CFD8DC;
 }
+
 #menu-mobile__toggle:checked ~ .menu-mobile__btn > span {
     transform: rotate(45deg);
 }
+
 #menu-mobile__toggle:checked ~ .menu-mobile__btn > span::before {
     top: 0;
     transform: rotate(0);
 }
+
 #menu-mobile__toggle:checked ~ .menu-mobile__btn > span::after {
     top: 0;
     transform: rotate(90deg);
 }
+
 #menu-mobile__toggle:checked ~ .menu-mobile__box {
     visibility: visible;
     left: 0;
     z-index: 1;
 }
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .footer__circle {
     position: relative;
     margin: 0 4px 0 0;
@@ -216,10 +248,8 @@
     height: 8px;
     border-radius: 50%;
     background-color: #c8dbfb;
-    opacity: .7;
+    opacity: 0.7;
 }
-
-
 /*
 если экран будет меньше 768, то применяем правила ниже
 для мобилки
@@ -235,7 +265,7 @@
    .header {
         margin-bottom: 15px;
     }
-    .logo{
+    .logo {
         padding: 16px 0;
     }
     .logo__text {
@@ -283,6 +313,7 @@
         display: none;
     }
 }
+
 @media (min-width: 769px) and (max-width: 960px) {
     .wrapper {
         width: 92.5%;
@@ -294,7 +325,7 @@
         background: top right/55% no-repeat url(images/frame.svg);
         padding: 0 0 147px 0;
     }
-    .menu__item{
+    .menu__item {
         font: normal 500 14px/16px Roboto;
     }
     .menu__item:nth-child(2) {
@@ -377,7 +408,7 @@
         background: top right/55% no-repeat url(images/frame.svg);
         padding: 0 0 147px 0;
     }
-    .menu__item{
+    .menu__item {
         font: normal 500 14px/16px Roboto;
     }
     .menu__item:nth-child(2) {
