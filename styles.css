@@ -361,7 +361,7 @@
   }
 
   .menu__item:last-child {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .main__title {
@@ -401,7 +401,7 @@
   }
 
   .menu__item {
-    font: normal 500 14px/16px Roboto;
+    font: normal 500 14px/16px Roboto, sans-serif;
   }
 
   .menu__item:nth-child(2) {
@@ -481,7 +481,7 @@
     margin-bottom: 41px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   }
-  
+
   .main__button {
     letter-spacing: 0.1px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
