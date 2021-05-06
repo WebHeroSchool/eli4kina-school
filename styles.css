@@ -75,7 +75,7 @@
 .menu__item:hover {
   cursor: pointer;
   background: #cadaf5;
-  background-position: 0px 0em;
+  background-position: 0 0;
   box-shadow: 0.2em 0 0 #cadaf5, -0.2em 0 0 #cadaf5;
   transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
 }
@@ -370,6 +370,7 @@
     margin-bottom: 38px;
     font: bold 43px/60px PtserifBold, arial, helvetica, sans-serif;
   }
+
   .main__paragraph {
     width: 40%;
     margin-bottom: 41px;
@@ -413,7 +414,7 @@
   }
 
   .menu__item:last-child {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .main__title {
@@ -454,7 +455,7 @@
   }
 
   .menu__item {
-    font: normal 500 14px/16px Roboto;
+    font: normal 500 14px/16px Robotoб sans-serif;
   }
 
   .menu__item:nth-child(2) {
