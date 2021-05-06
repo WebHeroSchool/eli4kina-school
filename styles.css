@@ -455,7 +455,7 @@
   }
 
   .menu__item {
-    font: normal 500 14px/16px Robotoб sans-serif;
+    font: normal 500 14px/16px Roboto, sans-serif;
   }
 
   .menu__item:nth-child(2) {
